@@ -23,8 +23,8 @@ let package = Package(
             name: "InputBarAccessoryView",
             dependencies: [],
             path: "Sources"),
-        .testTarget(
-            name: "InputBarAccessoryViewTests",
-            dependencies: ["InputBarAccessoryView"]),
+//        .testTarget(
+//            name: "InputBarAccessoryViewTests",
+//            dependencies: ["InputBarAccessoryView"]),
     ]
 )
